@@ -9,7 +9,7 @@ services:
                 working_dir: /app
                 volumes:
                         - ./:/app
-                entrypoint: pre_install.sh
+                entrypoint: ./pre_install.sh
         www1: 
                 <<: *www
                 ports:
