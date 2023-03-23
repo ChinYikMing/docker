@@ -17,4 +17,4 @@ service apache2 start
 
 echo "root:root" | chpasswd
 
-tail -f /dev/null
+#tail -f /dev/null
